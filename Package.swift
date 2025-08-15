@@ -23,7 +23,8 @@ let package = Package(
             dependencies: [
                 .target(name: sdkName),
             ],
-            path: "framework/SPM"
+            path: "framework/SPM",
+            exclude: ["DeeplinkSDK.podspec"]
         ),
     ],
     swiftLanguageVersions: [.v5]
