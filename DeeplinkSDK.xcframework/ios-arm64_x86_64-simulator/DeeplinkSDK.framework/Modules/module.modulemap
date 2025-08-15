@@ -1,0 +1,11 @@
+framework module DeeplinkSDK {
+  umbrella header "DeeplinkSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module DeeplinkSDK.Swift {
+  header "DeeplinkSDK-Swift.h"
+  requires objc
+}
