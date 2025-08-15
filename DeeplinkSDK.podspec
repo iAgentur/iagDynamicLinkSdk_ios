@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'DeeplinkSDK'
+  s.module_name = 'DeeplinkSDK'
   s.version = '0.1.2'
   s.summary = 'DeeplinkSDK for iOS'
   s.description = 'DeeplinkSDK for iOS'
@@ -12,5 +13,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '14.0'
   s.swift_version = '5.9'
 
-  s.vendored_framework = "DeeplinkSDK.xcframework"
+  s.vendored_framework = "framework/static/#{s.module_name}.xcframework"
 end

@@ -1,6 +1,9 @@
 // swift-tools-version:5.9
 import PackageDescription
 
+let sdkName = "DeeplinkSDK"
+let sdkStatic = "\(sdkName)-static"
+
 let package = Package(
     name: "DeeplinkSDK",
     platforms: [
@@ -8,15 +11,20 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "DeeplinkSDK",
-            targets: ["DeeplinkSDK"]
+            name: sdkStatic,
+            type: .static,
+            targets: [sdkStatic]
         ),
     ],
     targets: [
-        .binaryTarget(
-            name: "DeeplinkSDK",
-            url: "https://github.com/iAgentur/iagDynamicLinkSdk_ios/releases/download/0.1.2/DeeplinkSDK.xcframework.zip",
-            checksum: "73387a715de08337608b8fbfafb2f0fd0709f4628c802b9deb2cd0b61b893e03"
-        )
-    ]
+        .binaryTarget(name: sdkName, path: "framework/static/\(sdkName).xcframework"),
+        .target(
+            name: sdkStatic,
+            dependencies: [
+                .target(name: sdkName),
+            ],
+            path: "framework/SPM"
+        ),
+    ],
+    swiftLanguageVersions: [.v5]
 )
