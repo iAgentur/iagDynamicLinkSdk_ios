@@ -13,12 +13,12 @@ import _SwiftConcurrencyShims
   @objc final public let androidUrl: Foundation.URL?
   @objc final public let androidFallbackUrl: Foundation.URL?
   @objc final public let desktopUrl: Foundation.URL?
+  required convenience public init(from decoder: any Swift.Decoder) throws
   @objc override dynamic public var description: Swift.String {
     @objc get
   }
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
 @_inheritsConvenienceInitializers @objc public class DeeplinkSDK : ObjectiveC.NSObject {
   @objc public static func registerHost(_ host: Swift.String, apiKey: Swift.String)
