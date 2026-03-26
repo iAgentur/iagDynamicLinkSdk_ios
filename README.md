@@ -22,7 +22,7 @@
     use_frameworks!
 
     target 'YourAppTarget' do
-      pod 'DeeplinkSDK', :git => 'https://github.com/iAgentur/iagDynamicLinkSdk_ios.git', :tag => '0.1.2'
+      pod 'DeeplinkSDK', :git => 'https://github.com/iAgentur/iagDynamicLinkSdk_ios.git', :tag => '0.1.4'
     end
     ```
 
@@ -46,7 +46,7 @@
     https://github.com/iAgentur/iagDynamicLinkSdk_ios.git
     ```
 
-4. Select the version **0.1.2** (or the latest release).
+4. Select the version **0.1.4** (or the latest release).
 5. Add the `DeeplinkSDK` product to your app target.
 
 #### Option 2 — Using `Package.swift`
@@ -60,7 +60,7 @@ import PackageDescription
 let package = Package(
     name: "YourApp",
     dependencies: [
-        .package(url: "https://github.com/iAgentur/iagDynamicLinkSdk_ios.git", from: "0.1.2")
+        .package(url: "https://github.com/iAgentur/iagDynamicLinkSdk_ios.git", from: "0.1.4")
     ],
     targets: [
         .target(
