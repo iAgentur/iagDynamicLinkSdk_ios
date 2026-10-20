@@ -7,5 +7,4 @@ framework module DeeplinkSDK {
 
 module DeeplinkSDK.Swift {
   header "DeeplinkSDK-Swift.h"
-  requires objc
 }
