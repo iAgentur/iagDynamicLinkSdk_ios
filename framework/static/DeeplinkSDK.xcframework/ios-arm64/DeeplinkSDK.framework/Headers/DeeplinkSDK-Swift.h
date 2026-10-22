@@ -456,6 +456,12 @@ SWIFT_CLASS("_TtC11DeeplinkSDK11DeeplinkSDK")
 /// \param apiKey The API key to use for authentication when resolving links from this host
 ///
 + (void)registerHost:(NSString * _Nonnull)host apiKey:(NSString * _Nonnull)apiKey;
+/// Random identifier of this app install, sent as <code>install_id</code> with every backend call.
+/// A lowercase UUID generated on first use and persisted in <code>UserDefaults</code>, so reinstalling
+/// the app resets it. The backend uses it to return the same deferred link match on retries
+/// and to count a click only once per install.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull installId;)
++ (NSString * _Nonnull)installId SWIFT_WARN_UNUSED_RESULT;
 /// Resolves a dynamic link URL into platform-specific deeplink data.
 /// This method attempts to extract deeplink data from the provided URL using multiple strategies:
 /// <ol>
@@ -531,8 +537,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) NSTimeInterval deferredDeeplin
 /// completion is then invoked with <code>(nil, nil)</code>). The flag is <em>not</em> set on a transport error,
 /// so a launch with no connectivity still gets one retry on the next launch. Reinstalling the
 /// app clears the flag.
-/// Per the backend contract, the request body contains only <code>platform</code>, <code>os_version</code> and
-/// <code>locale</code>. The IP is read server-side from the request header and is never sent in the body.
+/// Per the backend contract, the request body contains only <code>install_id</code>, <code>app_version</code>,
+/// <code>platform</code>, <code>os_version</code> and <code>locale</code>. The IP is read server-side from the request header
+/// and is never sent in the body.
 /// \param host A host previously registered via <code>registerHost(_:apiKey:)</code> (e.g.
 /// “20min.appshort.link”). Its base URL and API key are reused; the path becomes
 /// <code>/deferred-link</code>.
@@ -585,6 +592,8 @@ SWIFT_CLASS("_TtC11DeeplinkSDK22DeferredDeeplinkResult")
 @property (nonatomic, readonly, copy) NSString * _Nullable shortLink;
 /// The original path including query, e.g. “/spring-promo?utm_source=newsletter”.
 @property (nonatomic, readonly, copy) NSString * _Nullable originalPath;
+/// Identifier of the matched click, or <code>nil</code> if the backend doesn’t return one.
+@property (nonatomic, readonly, copy) NSString * _Nullable clickId;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
