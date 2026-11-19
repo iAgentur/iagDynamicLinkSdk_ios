@@ -556,6 +556,38 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) NSTimeInterval deferredDeeplin
 /// </ul>
 ///
 + (void)resolveDeferredDeeplinkForHost:(NSString * _Nonnull)host completion:(void (^ _Nonnull)(DeferredDeeplinkResult * _Nullable, NSError * _Nullable))completion;
+/// Reports to the backend that the installed app was opened by a link carrying a <code>click_id</code>.
+/// When a short link is opened via the backend redirect page (e.g. from an in-app browser),
+/// the backend appends <code>click_id</code> to the https destination URL. Call this for every URL that
+/// opens the app: if the URL has a <code>click_id</code> query parameter, the SDK posts it to the
+/// <code>/link-open</code> endpoint together with <code>install_id</code>, <code>platform</code>, <code>app_version</code> and <code>os_version</code>.
+/// The backend counts a click once per install, so repeated calls for the same URL are safe.
+/// <h2>Example</h2>
+/// \code
+/// func scene(_ scene: UIScene, continue userActivity: NSUserActivity) {
+///     guard let url = userActivity.webpageURL else { return }
+///     DeeplinkSDK.trackLinkOpen(from: url, forHost: "20min.appshort.link")
+/// }
+///
+/// \endcode\param url The URL that opened the app.
+///
+/// \param host A host previously registered via <code>registerHost(_:apiKey:)</code> (e.g.
+/// “20min.appshort.link”). Its base URL and API key are reused; the path becomes <code>/link-open</code>.
+///
+/// \param completion Called on the main queue, only when the request was made.
+/// <ul>
+///   <li>
+///     status: “recorded”, “duplicate” or “unknown_click” as reported by the backend, or <code>nil</code>.
+///   </li>
+///   <li>
+///     error: A transport or decoding error, or <code>nil</code>.
+///   </li>
+/// </ul>
+///
+///
+/// returns:
+/// <code>true</code> if the URL has a <code>click_id</code> and the request was made, <code>false</code> otherwise.
++ (BOOL)trackLinkOpenFrom:(NSURL * _Nonnull)url forHost:(NSString * _Nonnull)host completion:(void (^ _Nullable)(NSString * _Nullable, NSError * _Nullable))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1165,6 +1197,38 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) NSTimeInterval deferredDeeplin
 /// </ul>
 ///
 + (void)resolveDeferredDeeplinkForHost:(NSString * _Nonnull)host completion:(void (^ _Nonnull)(DeferredDeeplinkResult * _Nullable, NSError * _Nullable))completion;
+/// Reports to the backend that the installed app was opened by a link carrying a <code>click_id</code>.
+/// When a short link is opened via the backend redirect page (e.g. from an in-app browser),
+/// the backend appends <code>click_id</code> to the https destination URL. Call this for every URL that
+/// opens the app: if the URL has a <code>click_id</code> query parameter, the SDK posts it to the
+/// <code>/link-open</code> endpoint together with <code>install_id</code>, <code>platform</code>, <code>app_version</code> and <code>os_version</code>.
+/// The backend counts a click once per install, so repeated calls for the same URL are safe.
+/// <h2>Example</h2>
+/// \code
+/// func scene(_ scene: UIScene, continue userActivity: NSUserActivity) {
+///     guard let url = userActivity.webpageURL else { return }
+///     DeeplinkSDK.trackLinkOpen(from: url, forHost: "20min.appshort.link")
+/// }
+///
+/// \endcode\param url The URL that opened the app.
+///
+/// \param host A host previously registered via <code>registerHost(_:apiKey:)</code> (e.g.
+/// “20min.appshort.link”). Its base URL and API key are reused; the path becomes <code>/link-open</code>.
+///
+/// \param completion Called on the main queue, only when the request was made.
+/// <ul>
+///   <li>
+///     status: “recorded”, “duplicate” or “unknown_click” as reported by the backend, or <code>nil</code>.
+///   </li>
+///   <li>
+///     error: A transport or decoding error, or <code>nil</code>.
+///   </li>
+/// </ul>
+///
+///
+/// returns:
+/// <code>true</code> if the URL has a <code>click_id</code> and the request was made, <code>false</code> otherwise.
++ (BOOL)trackLinkOpenFrom:(NSURL * _Nonnull)url forHost:(NSString * _Nonnull)host completion:(void (^ _Nullable)(NSString * _Nullable, NSError * _Nullable))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

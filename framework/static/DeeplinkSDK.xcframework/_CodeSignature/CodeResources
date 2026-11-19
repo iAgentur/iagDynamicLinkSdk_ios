@@ -6,11 +6,11 @@
 	<dict>
 		<key>ios-arm64/DeeplinkSDK.framework/DeeplinkSDK</key>
 		<data>
-		KVklOSCObb8CNiGPZsH4bNnCxEo=
+		THEdZV83Wb4Y4PBIhqmj385tucs=
 		</data>
 		<key>ios-arm64/DeeplinkSDK.framework/Headers/DeeplinkSDK-Swift.h</key>
 		<data>
-		l0lcDYGE3iS1zC4oiHp4nIBzXOU=
+		Taoy1B0olKLtI8ug+95wf3F9lxs=
 		</data>
 		<key>ios-arm64/DeeplinkSDK.framework/Headers/DeeplinkSDK-umbrella.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/DeeplinkSDK.framework/Info.plist</key>
 		<data>
-		Vu51DhFx+8EsAsxl73CH3zhE4g0=
+		58ifMFm8Ipt7cXMsn8R24vrow14=
 		</data>
 		<key>ios-arm64/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>ios-arm64/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		G7Z+wf96H/Gz1o0+6uBYyH1oYc8=
+		/YnberS4HAhyG/TxVDook2OYXF0=
 		</data>
 		<key>ios-arm64/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		QNsWEQbH6QUX5VbfbkmZQxBHYTU=
+		fSaRuCeMKAO0v091bF4JnvOZpcM=
 		</data>
 		<key>ios-arm64/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		G7Z+wf96H/Gz1o0+6uBYyH1oYc8=
+		/YnberS4HAhyG/TxVDook2OYXF0=
 		</data>
 		<key>ios-arm64/DeeplinkSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/DeeplinkSDK</key>
 		<data>
-		n44HC49DvQmm9DzfI6i6ZZR8/Nw=
+		g+iVyjDE+mU8UdJwfe4guHdN0oE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Headers/DeeplinkSDK-Swift.h</key>
 		<data>
-		5j7AoHA857RwYrOiwCKnm7EuV8w=
+		Jgm9nEa/J8/MdmRrnBzfKdt6Fn0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Headers/DeeplinkSDK-umbrella.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Info.plist</key>
 		<data>
-		IwLF6nlv7TvP3lDqApu2FuClgXg=
+		+aOAdXUUwj7YUyTszEBms2LwLdg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,15 +62,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		scqMplaUrWef5f8I4Lhf3olYfFE=
+		NGc53N/pirT97Hj4evrsdlFvO5Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		edsUniiD+XfR9SOZmKNjnyRmSAA=
+		6AwxnARiC06cUikLIyJNE/V2iCM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		scqMplaUrWef5f8I4Lhf3olYfFE=
+		NGc53N/pirT97Hj4evrsdlFvO5Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -78,15 +78,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7ATxkIc+KrdO9DCC+9uKorGOEKw=
+		Yi7AtFoHBYoB16pB1zHABKvwIaw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		W6pnguk4LDkiqy5HR9gzua2P4ic=
+		GuRhFdlghQOBKXQiBeWIT39vfOk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7ATxkIc+KrdO9DCC+9uKorGOEKw=
+		Yi7AtFoHBYoB16pB1zHABKvwIaw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -99,14 +99,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mNLyUlxa26dqnxoDmrsxJyxOIQSMbDd09/bWWoBrEOk=
+			91n03CFKdfdx/jj+3SqWihzHJlGtklB8yRBUEnMjSuw=
 			</data>
 		</dict>
 		<key>ios-arm64/DeeplinkSDK.framework/Headers/DeeplinkSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4F0NzOE+oFvm0Uc/HmD+etLsf9SIIwSAKcokSk1hCBY=
+			xjWmLIuF2L9O32N/140nqKvvAnEdjDOOTGLal2oBQN4=
 			</data>
 		</dict>
 		<key>ios-arm64/DeeplinkSDK.framework/Headers/DeeplinkSDK-umbrella.h</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VKPbapQydmlhai4/MWiFRnQ0Atmr2/+QI6oAh7VNnlM=
+			6GFmtPkTxCP9fge4RD3VlAOLiJjoHV89qZ4DZ+/cHos=
 			</data>
 		</dict>
 		<key>ios-arm64/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -134,21 +134,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1xUxgbCegu/66Rx48wQgGiDeSW8jQDhvqEMxxI6W9Gs=
+			YloTkatqzFD33CzxxbIq4cV2aNrOvdBlzjEmJdpiR48=
 			</data>
 		</dict>
 		<key>ios-arm64/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u3P8ffKMRh8O2yTHiWriyTYdFkjiERvRwr0HujiS3Ws=
+			XH9F32lsK6l1+4Q3zgaw9/LpqvfIq3ACDfQQCuvWsHQ=
 			</data>
 		</dict>
 		<key>ios-arm64/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1xUxgbCegu/66Rx48wQgGiDeSW8jQDhvqEMxxI6W9Gs=
+			YloTkatqzFD33CzxxbIq4cV2aNrOvdBlzjEmJdpiR48=
 			</data>
 		</dict>
 		<key>ios-arm64/DeeplinkSDK.framework/Modules/module.modulemap</key>
@@ -162,14 +162,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bJWVqn1OpwlSHydSlIDdRZRniaoFvIb8+Qht/ESu6hU=
+			TLxVOXyAfDbSx1S98dBuEdY4aH/Lh8gu/AGL3qGh8z0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Headers/DeeplinkSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M7ZyGAdkUIv9JZ/JCHRJ+L29TyPC22fLov6z02aUMmc=
+			Nbnjhy2ADGtwPqAKnSb/auds2QVnkb2G3pV3jynKltQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Headers/DeeplinkSDK-umbrella.h</key>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4/G3GWzgzElxmi4k/wAgn1OJ4BkUWc9FA+Ub01YByJM=
+			Wzt/uqoHAqEe8Aaeg7vxgKWc2qg44neodKE5YFb9QTg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -197,21 +197,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vd0j3TvSQQfx1BMiWczmkfcTb1ZFEPDEVYrrriUYa+w=
+			Fc7KStksV8A41A7l1alEWYfqRa4+p+uuJVibFq1WwBs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gexaIkUnqLBbMG+5zPx9eAJdDNjIYdmwk/9tgG0MVYM=
+			uXboWTiTKVbW8CWYrGWVqabZyVEyLctetoiPDeeurzA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vd0j3TvSQQfx1BMiWczmkfcTb1ZFEPDEVYrrriUYa+w=
+			Fc7KStksV8A41A7l1alEWYfqRa4+p+uuJVibFq1WwBs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -225,21 +225,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y1cLO3L2ViLNHc6f1mBCRRjb4Nqvrm1WDRyKpiv4Lbc=
+			/bzCVz32BV3aM+OgINaONEOc42uHmvBwpkvN9HqM1FY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZnZ7dSsur5h7Cs8t3qJ6FNncckfGVYNDoBPP+/PUGLE=
+			1kUkhro5Sb1Z0bOj4jV5EnB8aNeSORmaEBK81VKoW04=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/DeeplinkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y1cLO3L2ViLNHc6f1mBCRRjb4Nqvrm1WDRyKpiv4Lbc=
+			/bzCVz32BV3aM+OgINaONEOc42uHmvBwpkvN9HqM1FY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DeeplinkSDK.framework/Modules/module.modulemap</key>

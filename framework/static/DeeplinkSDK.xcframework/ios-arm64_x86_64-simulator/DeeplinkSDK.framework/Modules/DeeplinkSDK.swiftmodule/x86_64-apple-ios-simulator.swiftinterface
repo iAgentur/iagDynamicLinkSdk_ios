@@ -31,6 +31,8 @@ import _SwiftConcurrencyShims
   @objc public static func getDynamicLink(from url: Foundation.URL, completion: @escaping (DeeplinkData?, (any Swift.Error)?) -> Swift.Void) -> Swift.Bool
   @objc public static var deferredDeeplinkTimeout: Swift.Double
   @objc public static func resolveDeferredDeeplink(forHost host: Swift.String, completion: @escaping (DeferredDeeplinkResult?, (any Swift.Error)?) -> Swift.Void)
+  @discardableResult
+  @objc public static func trackLinkOpen(from url: Foundation.URL, forHost host: Swift.String, completion: ((Swift.String?, (any Swift.Error)?) -> Swift.Void)? = nil) -> Swift.Bool
   @objc override dynamic public init()
   @objc deinit
 }
